@@ -29,8 +29,6 @@ Future<void> main() async {
   // });
 }
 
-Future<void> imprimeValor() async {}
-
 void inicializaDivs() {
   cep = querySelector("#cep") as InputElement;
   rua = querySelector("#lagradouro") as InputElement;
@@ -54,5 +52,6 @@ void chamaEnderecoPorCep() {
 }
 
 void mensagemRodape() {
-  rodape.innerText = "Desenvolvido por Clinton - ${DateTime.now().year}";
+  rodape.innerText =
+      "Forjado por Clinton \n Na montanha da perdição - ${DateTime.now().year}";
 }
